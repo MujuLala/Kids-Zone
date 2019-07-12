@@ -1,0 +1,433 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    background-image: url(Image/7724343a6ddee60a5e8983af280d17ba.jpg);   
+background-size:cover;
+background-repeat: no-repeat
+}
+/*---------Main Heading-----------*/
+.Heading{
+    width: 100%;
+    height: 150px;
+    background-color: #acd2f5;
+    background-size:100%;
+    background-repeat: no-repeat;
+
+
+}
+ #search{
+     float: right;
+     position:absolute;
+     right: 100px;
+     top: 75px;
+    
+     
+ }
+#Logo img{
+    width: 200px;
+    height: 150px;
+    margin-left:20px;
+    margin-top: 5px;
+
+}
+#animals img
+{
+width: 600px;
+height: 130px;
+position: absolute;
+top:5px;
+left: 300px;
+}
+#search input[type="text"]
+{
+border-radius: 25px 0px 0px 25px;
+height: 30px;
+border:1px solid blue;
+outline: none;
+padding: 0px 0px 0px 20px;
+
+}
+#search input[type="button"]
+{
+border-radius: 0px 25px 25px 0px;
+height: 30px;
+position:relative;
+border:1px solid blue;
+outline: none;
+cursor: pointer;
+background: yellow;
+margin-right: 3px;
+color: blue;
+padding: 0px 20px 0px 20px;
+}
+input[type="button"]:hover
+{
+background-color: aliceblue;
+}
+/*---------Navigation-----------*/
+.Nav
+{
+width: auto;
+
+
+top: 150px;
+}
+.Nav div{
+ display: inline-block;
+ background-color: white;
+ box-shadow: 0px 0px 1px 0px blue;
+ height: 36px;
+ 
+ 
+}
+.Nav div a{
+    background-color:#0029bf;
+    padding:0px;
+    border-radius: 0px 0px 15px 15px;
+    width: 120px;
+    height: 17px;
+   text-decoration: none;
+    display:block;
+    color:black;
+    box-shadow: 0px 1px 1px 1px;
+ 
+}
+
+.Nav div:hover{
+background-color: white;
+color: grey;
+box-shadow:0px 3px 0px 3px blue;
+}
+
+.Nav div a img{
+width:30px;
+height: 30px;
+}
+.Nav div a:hover
+{
+height: 2px;
+transition: .50s;
+}
+.table
+{
+    position: absolute;
+    right: 100px;
+    top:4px;
+
+}
+.table table th
+{
+padding: 10px;
+width: 100px;
+text-decoration: none;
+background-color: white;
+}
+.table table th:hover
+{
+border: 1px solid blue;
+text-decoration: white;
+
+transition: 1em;
+}
+.table table th a
+{
+    color: orangered;
+text-decoration: none;
+}
+.table table th a
+{
+text-decoration: white;
+}
+
+/*---------Fixed Sicial Icon-----------*/
+.Social
+{
+position: fixed;
+top: 40%;
+left: 0px;
+
+}
+.Social li{
+display: block;
+padding: 10px;
+cursor: pointer;
+
+position: relative;
+color: azure;
+}
+.Social li i
+{
+font-size: 60px;
+}
+.Social li:hover{
+
+
+}
+.Social li:nth-child(1){
+background: #2222a5;
+
+}
+.Social li:nth-child(2){
+background: red;
+}
+.Social li:nth-child(3) 
+{
+background:#16a3e4;
+}
+.Social li:nth-child(4){
+background:red;
+}
+
+.Social li:nth-child(5)
+{
+background: #0000ff;
+}
+/*---------Body Content-----------*/
+
+.intro h1
+{
+    font-family: cursive;
+    color:#ffe300;
+}
+.intro p{
+    font-family: 'Cinzel', serif;
+    color: white;
+
+    }
+    /*---------Slide Animation-----------*/
+
+#Animate
+{
+    width: 1250px;
+    overflow: hidden;
+    border-style:solid ;
+    border-color: white;
+    border-width: 7px;
+    margin-top: 10px;
+    position:static;
+    height:500px;
+}
+#Slides
+{
+    width: 5000px;
+    animation-name:muju;
+    animation-duration:20s;
+    position: relative;
+}
+#Slides img
+{
+    float: left;
+    width: 1250px;
+    height: 500px;
+}
+@keyframes muju
+{
+    0%
+    {
+        left: 0px;
+    }
+    20%
+    {
+        left: 0px;
+    }
+    25%
+    {
+left: -1250px;
+    }
+    45%
+    {
+        left: -1250px;
+    }
+    50%
+    {
+        left: -2500px;
+    }
+    70%
+    {
+        left: -2500px;
+    }
+    75%
+    {
+     left: -3750px;   
+    }
+    95%
+    {
+        left: -3750px;
+    }
+}
+/*---------Grid Item -----------*/
+
+.content{
+    grid-template-columns:auto auto auto ;
+    display: grid;
+    grid-gap:30px;
+    text-align:center;
+    margin-top: 5px;
+    margin: 5px;
+   
+   
+
+
+}
+#grid1
+{
+    background-image: url(Image/muslim-person-clipart-9.jpg);
+    background-repeat: no-repeat;
+background-size:100%;
+background-color: white;
+padding: 10px;
+height: auto;
+}
+#grid2
+{
+    background-image: url(Image/brushing-teeth-2351803_960_720.png);
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-color: white; 
+    padding: 10px;  
+    height: auto;
+}
+#grid3
+{
+       background-image: url(Image/Video_Can-babies-drink-almond-milkTHUMB-800x500.png);
+       background-repeat: no-repeat;
+       background-size: 100%;
+    background-color: white;
+    padding: 10px;
+    height: auto;
+
+}
+#grid1 h2
+{
+color:#faa229;
+}
+#grid2 h2
+{
+    color: #faa229;
+}
+#grid3 h2
+{
+    color: #faa229;
+
+}
+#grid1 p
+{
+    color: black;
+    font-size: auto;
+   
+}
+#grid2 p
+{
+    color: black;
+    font-size: auto;
+}
+#grid3 p
+{
+    color: black;
+    font-size: auto;
+ 
+}
+
+.Post
+{
+    color: blue;
+    margin-left: 5px;
+
+    width: 100%;
+    height: 400px;
+}/*---------Comments Form-----------*/
+
+#form2
+{
+    float: left;
+    margin-left: 150px;
+}
+.Post legend
+{
+    font-size: 25px;
+    color: orangered;
+    background-color: white;
+    width: 100%;
+    text-align: center;
+}
+.Post label
+{
+    font-size: 15px;
+}
+.Post input[type="text"]{
+
+    
+
+}
+.Post input[type="email"]{
+   
+}
+.comments label{
+    font-size: 15px;
+    font-family:initial;
+}
+.comments input[type="text"]
+{
+    width: 300px;
+    height: 40px;
+}
+
+.Post input[type="button"]
+{
+    background-color: yellow;
+    width: 150px;
+    height: 40px;
+    border:none;
+    
+}
+.Post input[type="button"]:hover{
+    background-color:blue;
+    color: white;
+    transform: -1s;
+}/*---------map link-----------*/
+
+#map img
+{
+    float: right;
+ position: relative;  
+width: auto;
+height: auto;
+margin-top: 0px;
+margin-right:100px;
+}
+/*----------------Footer--------*/
+.Down-footer {
+    background-color: #aacde9;
+    width: 100%;
+    color: white;
+    
+}
+.Down-footer h1{
+    color:#faa229;
+    font-size: 20px;
+    margin-left: 10px;
+}
+#bottom
+{
+    background-color: white;
+    width: 100%;
+    margin-top: 1px;
+    position: relative;
+    color: green;
+}
+/*---------Ending-----------*/
+
+#left{
+float: left;
+
+}
+#right{
+    float: right;
+}
+.Content2 h1
+{
+color: #faa229;
+}
